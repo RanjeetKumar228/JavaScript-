@@ -17,7 +17,7 @@ let isLoggedin = false
 
 //        *** Primitive data types **
 
-//        1.  numer => 2 to the powe 53
+//        1.  numer => 2 to the power 53
 //        2.  bigInt
 //        3.  String => " "
 //        4.  boolean => true / false
