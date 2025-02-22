@@ -13,7 +13,7 @@ let name = "JeEt"
 let age = 20
 let isLoggedin = false
 
-//             Names of data type
+//             Name's of data type
 
 //        *** Primitive data types **
 
@@ -27,9 +27,9 @@ let isLoggedin = false
 
 //        *** Object *** 
 
-console.log(typeof "JeEt")
+console.log(typeof "JeEt")       // string
 
-console.log(typeof age)
+console.log(typeof age)          // number 
 
 console.log(typeof null);        // object
 
