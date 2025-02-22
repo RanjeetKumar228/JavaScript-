@@ -55,10 +55,26 @@ let Str2 = " JeEt"
 let Str3 = Str1 + Str2
 //console.log(Str3);
 
-//console.log("1" + 2)           
-//console.log(1 + "2");             
-//console.log("1" + 2 + 3);       
-//console.log(1 + 2 + "3");      
+const newvalue = ("R" + 2)
+console.log(newvalue)             // R2
+console.log(typeof(newvalue))     // String
+
+const newvalue2 = (1 + "R")
+console.log(newvalue2);            // 1R
+console.log(typeof(newvalue2));    // string
+
+const newvalue3 = ("R" + 1 + "K")   
+console.log(newvalue3);             // R1K
+console.log(typeof(newvalue3));     // string
+     
+const newvalue4 = ("R" + 2 + 3)
+console.log(newvalue4);              // R23
+console.log(typeof(newvalue4));      // string
+
+const newvalue5 = (1 + 2 + "R")
+console.log(newvalue5);              // 3R
+console.log(typeof(newvalue5));      // string
+      
 
 /*
 NOTE ==> Agr first String hai to sare string mein Add hoga , agr last mein
@@ -81,17 +97,6 @@ string  hai to pehle sare add ho jayenge phir string hoga
 
 let gameCounter = 100
 gameCounter++
-console.log(gameCounter);
+//console.log(gameCounter);    // pehle print hoga fir add hoga 
 ++gameCounter
-console.log(gameCounter);
-
-
-
-
-
-
-
-
-
-
-
+//console.log(gameCounter);    // pehle add hoga fir print hoga
