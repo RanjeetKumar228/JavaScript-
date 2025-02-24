@@ -21,20 +21,20 @@ const value = new String('Jeet-JK')
 //console.log(value.length)
 
 /*
-agr value ki length pta krna ho to yahi ki usme kitne char ya digit hai to     
+agr value ki length pta krna ho to yani ki usme kitne char ya digit hai to     
 .length use kro
 */
 
 //console.log(value.toUpperCase()) 
 
 /*
-agr value ko uper case mein likhan hai to .toUpperCase() use kro
+agr value ko upper case mein likhna hai to .toUpperCase() use kro
 */
 
 //console.log(value.toLowerCase()) 
 
 /*
-agr value ko lower case mein likhan hai to .toLowerCase() use kro
+agr value ko lower case mein likhna hai to .toLowerCase() use kro
 /*
 
 //console.log(value.charAt(4))
@@ -95,8 +95,8 @@ const newString1 = "     Ranjeet "
 console.log(newString1.trimEnd())
 console.log(newString1.trimEnd())
 console.log(newString1.trimEnd().length)
-console.log(newString1.trimEnd() == newString1.trimRight());
-console.log(newString1.trimEnd() === newString1.trimRight());
+console.log(newString1.trimEnd() == newString1.trimRight());     // true
+console.log(newString1.trimEnd() === newString1.trimRight());    // true
 
 /*
   trim() ka use extra space ko door krne ke liye krte hai , example ke liye agr user se  
@@ -115,3 +115,20 @@ const url = "https://ranjeet.com/ranjeet%20kumar"
 
 // console.log(url.includes('jeet')) 
 // .includes check krte hai ki ye word usme hai ya nhi 
+
+
+// Ab use krte hai .at()
+
+const newarray = [5,8,7,22,6]
+index = 3
+console.log(`An index of ${index} return ${newarray.at(index)}`)
+index = -3
+console.log(`An index of ${index} return ${newarray.at(index)}`)
+
+
+// concat()
+
+const firstArray = ["a","b","c","d"];
+const secondtArray = ["e","f","g","h"];
+const thirdArray = firstArray.concat(secondtArray)
+console.log(thirdArray);
