@@ -22,7 +22,7 @@ let isLoggedin = false
 //        3.  String => " "
 //        4.  boolean => true / false
 //        5.  null =>standalone value
-//        6.  unrefined 
+//        6.  undefined 
 //        7.  symbol => unique
 
 //        *** Object *** 
