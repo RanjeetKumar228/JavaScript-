@@ -9,41 +9,41 @@ const rollNo = 21
 Old tarika hai likhne ka , ab hum new tarike se likhege.Backticks ka use krenge, yaha aata hai String Inter position, modern traika hia likhne ka.
 */
 
-// console.log(`My name is ${name} and my roll number is ${rollNo}`)
+console.log(`My name is ${name} and my roll number is ${rollNo}`)
 
 const value = new String('Jeet-JK')
-// console.log(value)
+console.log(value)
 
-//console.log(value[0])
+console.log(value[0])
 
-//console.log(value.__proto__)
+console.log(value.__proto__)
 
-//console.log(value.length)
+console.log(value.length)
 
 /*
 agr value ki length pta krna ho to yani ki usme kitne char ya digit hai to     
 .length use kro
 */
 
-//console.log(value.toUpperCase()) 
+console.log(value.toUpperCase()) 
 
 /*
 agr value ko upper case mein likhna hai to .toUpperCase() use kro
 */
 
-//console.log(value.toLowerCase()) 
+console.log(value.toLowerCase()) 
 
 /*
 agr value ko lower case mein likhna hai to .toLowerCase() use kro
 /*
 
-//console.log(value.charAt(4))
+console.log(value.charAt(4))
 
 /*
 agr value mein aap kis number pr kon sa char hai pta krna chate hai to .charAt() ka use kro
 */
 
-//console.log(value.indexOf('e'))
+console.log(value.indexOf('e'))
 
 /*
 agr value mein aap kon sa char kis number pr hai pta krna chate hai to .indexOf('') ka use kro
@@ -70,11 +70,11 @@ const newString = value.substring(0,7)
 
 // const newValue = ["Ranjeet","Jeet","Superman","Chacha","IronMan","Mama","Jk"]
 newValue = "Ranjeet"
-// console.log(newValue.slice(3))
-// console.log(newValue.slice(3,6))
-// console.log(newValue.slice(-3))
-// console.log(newValue.slice(0,-4))
-// console.log(newValue.slice(-4,0))  // ye empty hoga kuki hmesa ye start to end hoga yaad rkhna
+console.log(newValue.slice(3))
+console.log(newValue.slice(3,6))
+console.log(newValue.slice(-3))
+console.log(newValue.slice(0,-4))
+console.log(newValue.slice(-4,0))  // ye empty hoga kuki hmesa ye start to end hoga yaad rkhna
 
  // console.log(newValue.slice(0,-4) == newValue.slice(-4,0))      // false
  // console.log(newValue.slice(0,-4) === newValue.slice(-4,0))     // false
