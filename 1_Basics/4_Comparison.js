@@ -1,24 +1,24 @@
-// console.log(2>1);
-// console.log(2==1);
-// console.log(2>=1);
-// console.log(2<1);
-// console.log(2<=1);
-// console.log(2!=1);
+console.log(2>1);
+console.log(2==1);
+console.log(2>=1);
+console.log(2<1);
+console.log(2<=1);
+console.log(2!=1);
 //console.log(2=!1);    // Ese nhi likhna
 
 /* Ye sb comparison to simple but problem tb aati hai jb hum koi same data type ki comparison nhi krte */
 
-// console.log("2">3)
-// console.log(typeof("2">3))  // boolean
-// console.log("02">1)
-// console.log(typeof("02">1))  // boolean
+console.log("2">3)
+console.log(typeof("2">3))  // boolean
+console.log("02">1)
+console.log(typeof("02">1))  // boolean
 
-// console.log(null>0);     // false 
-// console.log(null<0);     // false      
-// console.log(null==0);    // false 
-// console.log(null===0);   // false 
-// console.log(null>=0);    // true
-// console.log(null<=0);    // true
+console.log(null>0);     // false 
+console.log(null<0);     // false      
+console.log(null==0);    // false 
+console.log(null===0);   // false 
+console.log(null>=0);    // true
+console.log(null<=0);    // true
 
 // console.log(0 > 0);
 
