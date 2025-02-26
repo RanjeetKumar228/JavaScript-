@@ -6,7 +6,7 @@
 
 // ********** Primitive **********
 
-//   7 types : String , Boolean , null , undefined, symbol , BigInt
+//   7 types : String , Number , Boolean , null , undefined, symbol , BigInt
 
 const score = 100
 const scoreValue = 100.3
@@ -17,7 +17,7 @@ let useEmail;
 
 const id = Symbol("123")
 const idNum = Symbol("123")
-//console.log(id === idNum)
+// console.log(id === idNum)
 
 const BigInt = 12132135156156165165132132132
 //console.log(BigInt)
@@ -31,8 +31,8 @@ const BigInt = 12132135156156165165132132132
 
 // Array
 
-const jeet= ["Ranjeet","JK","RK"]
-//console.log(jeet)
+const jeet= ['Ranjeet','JK','RK']  // Array ko hum ( " " ) or ( ' ' ) in dono mein likha skte hai
+console.log(jeet)
 
 // Object
 
