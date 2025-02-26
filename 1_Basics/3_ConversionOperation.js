@@ -4,8 +4,8 @@ let score = "JeEt"
 //console.log(typeof (score));  // As a method
 
 let valueInNumber = Number (score)
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);          // NaN => Not A Number 
+ console.log(typeof valueInNumber);
+ console.log(valueInNumber);          // NaN => Not A Number 
 
 
 //             **** NOTE ****  
@@ -30,8 +30,8 @@ let booleanNumber = Boolean(isLoggedin)
 
 let sum = 99 
 let stringNumber = String(sum)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+console.log(stringNumber);
+console.log(typeof stringNumber);
 
 // ********************  OPERATIONS   ***********************
 
