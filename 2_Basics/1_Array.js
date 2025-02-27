@@ -48,6 +48,7 @@ const newArray = myArray.join()
 // Important 
 
 // slice and splice
+
 const myN1 = [0,1,2,3,4]
 
 console.log("A ",myN1)
