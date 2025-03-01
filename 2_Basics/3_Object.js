@@ -25,7 +25,7 @@ const myObject = {
 // Object ko access krne ke do trike hai  1 dot' . ' ke trike se   2  [] se 
 
 console.log(myObject.email);   
-console.log(myObject["full name"]);   // isko [] esse hi access kis ja skta hai 
+console.log(myObject["full name"]);   // isko [] esse hi access kia ja skta hai 
 console.log(myObject["email"]);
 console.log(myObject[Sym]);
 
