@@ -19,7 +19,7 @@ const myObject = {
 
     [Sym]:"mykey",
 
-    "full name" : "Jeet",   // agr es trah se likha ho to , eska ek hi trika access krne ka vp bhi [] isi se , aur koi trika nhi hai
+    "full name" : "Jeet",   // agr es trah se likha ho to , eska ek hi trika access krne ka vo bhi [] isi se , aur koi trika nhi hai
 } 
 
 // Object ko access krne ke do trike hai  1 dot' . ' ke trike se   2  [] se 
