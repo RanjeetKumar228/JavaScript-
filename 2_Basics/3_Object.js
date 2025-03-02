@@ -43,14 +43,15 @@ Object.freeze(myObject)
   
 */
 
-myObject.greetingTwo = function () {
-    console.log(`Hello my dear `);
-    
-}
-console.log(myObject.greetingTwo());
 
 myObject.greeting = function () {
     console.log(`Hello my dear ${this.name}`);
     
 }
 console.log(myObject.greeting());
+
+myObject.greetingTwo = function () {
+  console.log(`Hello my dear `);
+  
+}
+console.log(myObject.greetingTwo());
