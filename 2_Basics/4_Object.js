@@ -36,4 +36,39 @@ const obj4 = {6: 'K', 7: 'U', 8: 'M', 9: 'A', 10: 'R'}
 // const combine_obj = Object.assign({},obj1,obj2)  // ye ho gya hmara .assign ke trike se
 
 const combine_obj = {...obj1 , ...obj2 , ...obj4}  // spread ke trike se
-console.log(combine_obj)
+//console.log(combine_obj)
+
+
+// Jb bhi database value aati hai  to Array of object aata hai 
+
+const user = [
+    {
+        id1 : 12,
+        email : 'jeet@gmail.com',
+    },
+    {
+        id1 : 12,
+        email : 'jeet@gmail.com',
+    },
+    {
+        id2 : 122,
+        email : 'jit@gmail.com',
+    },
+    {
+        id3 : 121,
+        email : 't@gmail.com',
+    },
+
+]
+
+user[2].email
+
+console.log(Object.keys(tinder_user));
+console.log(Object.values(tinder_user));
+console.log(Object.entries(tinder_user));
+
+console.log(tinder_user)
+
+// jb hum loop chlate hai to ek value aati hai to kya vo valid hai ya nhi kese pta lgega
+
+console.log(tinder_user.hasOwnProperty('emai'))
