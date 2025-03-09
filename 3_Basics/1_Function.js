@@ -63,17 +63,17 @@ const result = addTwoNum(3,6)
 
 */
 
-function userLoggedIn(username) {
-    if (username === undefined) {
+function userLoggedIn(username = "Jeet") {
+    if (!username) {
         console.log("Please enter user name");
         return;
     }
     return `${username} just logged in `
 }
 
-console.log(userLoggedIn())  
+// console.log(userLoggedIn())  
 
-// undefined just logged in , undifined aata hai jb koi argument pass na ho
+/* undefined just logged in , undifined aata hai jb koi argument pass na ho */
 
 //console.log(userLoggedIn("Ranjeet"))  // Ranjeet just logged in 
 
