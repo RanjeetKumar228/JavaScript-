@@ -3,7 +3,7 @@
 
 // Jese ki koi application hai aur hum chahte hai ki open hote hi vo DB ke connect ho jaye, to uske liye hum IIFE ka use krte hai
 
-// Kai bar hota Global scope ke ander kuchh variable declear hoti hai aur sath function ke andr bhi , to hum nhi chahenge ki vo global scope se hmari function ki value polute ho ,kuki hme ye previous example mein dekha tha ki chhoti sis bade bhai se ice-cream le skti hai.
+// Kai bar hota Global scope ke ander kuchh variable declear hoti hai aur sath function ke andr bhi , to hum nhi chahenge ki vo global scope se hmari function ki value pollute ho ,kuki hme ye previous example mein dekha tha ki chhoti sis bade bhai se ice-cream le skti hai.
 
 /*
    2 main reason hai
