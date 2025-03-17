@@ -28,6 +28,6 @@ map.set('USA',"United state of america")
 map.set('FR', "France")
 
 for (const key in map) {
-   //  console.log(key);
-     
+   //  console.log(key);          
+// map iteratable nhi hai kuki iska output kuch nhi aa rha hai    
 }
