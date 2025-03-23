@@ -2,5 +2,7 @@
 	"editor.fontSize": 18,
 	"terminal.integrated.fontSize": 18,
 	"editor.wordWrap": "on",
-    "editor.acceptSuggestionOnEnter": "on"
-}
+	"editor.acceptSuggestionOnEnter": "on",
+	"liveServer.settings.port": 5501
+  }
+  
