@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;" color="red">
+    
+</body>
+<script>
+
+  const h1 = document.createElement('h1')
+  console.log(h1)
+  h1.className = 'Heading'
+  h1.id = '11'
+  h1.setAttribute('title',"Hello")
+  h1.style.backgroundColor = 'yellow'
+  h1.style.padding = '10px'
+  h1.style.borderRadius = '5px'
+
+const add_text = document.createTextNode("Hello Ranjeet Ji")
+h1.appendChild(add_text)
+
+document.body.appendChild(h1)
+
+h1.style.textAlign = 'center'
+
+
+</script>
+</html>
