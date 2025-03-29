@@ -16,7 +16,7 @@ span{
     height: 100px;
     width: 100px;
     display: inline-block;
-    border: solid rgb(137, 135, 135) 2px;
+    border: solid none;
 }
 
 #black{
