@@ -3,48 +3,51 @@ html{
 }
 
 .canvas{
-    
-    margin: auto;
-  
+     height: 200px;
+     width: 200px;  
+     display: inline-block;
+     
+     
 }
 
 #black{
-    background-color: black;
-    /* border: none; */
     height: 100px;
     width: 100px;
-    display: inline;
+    display: inline-block;
+    background-color: black;
+    border: none; 
+    
 }
 
 #yellow{
-    background-color: yellow;
-    border: none;
     height: 100px;
     width: 100px;
-    display: inline;
+    display: inline-block;
+    background-color: yellow;
+    border: none;
 }
 
 #blue{
-    background-color: blue;
-    border: none;
     height: 100px;
     width: 100px;
-    display: inline;
+    display: inline-block;
+    background-color: blue;
+    border: none;
 }
 
 #purple{
-    background-color: purple;
-    border: none;
     height: 100px;
     width: 100px;
-    display: inline;
+    display: inline-block;
+    background-color: purple;
+    border: none;
 }
 
 #pink{
-    background-color: pink;
-    border: none;
     height: 100px;
     width: 100px;
-    display: inline;
+    display: inline-block;
+    background-color: pink;
+    border: none;
 }
 
