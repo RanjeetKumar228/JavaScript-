@@ -1,10 +1,50 @@
 html{
-    margin: 0cm;
+    margin: 0,auto,0;
 }
 
 .canvas{
-    height: fit-content;
-    width: 100px;
+    
     margin: auto;
-    display: flex;
+  
 }
+
+#black{
+    background-color: black;
+    /* border: none; */
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+#yellow{
+    background-color: yellow;
+    border: none;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+#blue{
+    background-color: blue;
+    border: none;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+#purple{
+    background-color: purple;
+    border: none;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+#pink{
+    background-color: pink;
+    border: none;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
