@@ -1,53 +1,43 @@
 html{
-    margin: 0,auto,0;
+    margin: 0;
+}
+
+span{
+    display: block;
 }
 
 .canvas{
-     height: 200px;
-     width: 200px;  
-     display: inline-block;
-     
-     
+    margin: 100px auto 100px;
+    width: 80%;   
+    text-align: center;
 }
 
-#black{
+.button{
     height: 100px;
     width: 100px;
     display: inline-block;
-    background-color: black;
-    border: none; 
+    border: solid rgb(137, 135, 135) 2px;
+}
+
+#black{
+    background: black;
+    
     
 }
 
 #yellow{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    background-color: yellow;
-    border: none;
+    background: yellow;
 }
 
 #blue{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    background-color: blue;
-    border: none;
+    background: blue;
 }
 
 #purple{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    background-color: purple;
-    border: none;
+    background: purple;
 }
 
 #pink{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    background-color: pink;
-    border: none;
+    background: pink;
 }
 
