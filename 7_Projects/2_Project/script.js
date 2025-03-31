@@ -16,7 +16,7 @@ form.addEventListener("submit",(event)=>{
     }
 
     else{
-        const bmi = weight/(height*height)*10000;
+        const bmi = (weight/(height*height)*10000).toFixed(2);
         result.innerHTML = `Your BMI is ${bmi} kg/m<sup>2</sup>`;
 
         if(bmi<=18.6){
